@@ -35,7 +35,7 @@ function TermsPage() {
     <>
       <PageHero eyebrow="Legal" title={<>Terms &amp; <span className="gradient-text">Conditions</span></>} subtitle="Please read these terms carefully before using the Samurai AI Platform." />
       <section className="mx-auto max-w-3xl px-5 py-12">
-        <p className="text-sm text-muted-foreground">Last updated: March 2026</p>
+        <p className="text-sm text-muted-foreground">Last updated: July 2026</p>
         <div className="mt-8 space-y-8">
           {sections.map((s, i) => (
             <Reveal key={s.h} delay={i * 25}>

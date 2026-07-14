@@ -33,7 +33,7 @@ function PrivacyPage() {
     <>
       <PageHero eyebrow="Legal" title={<>Privacy <span className="gradient-text">Policy</span></>} subtitle="Your privacy matters to us. Here's how we handle your data." />
       <section className="mx-auto max-w-3xl px-5 py-12">
-        <p className="text-sm text-muted-foreground">Last updated: March 2026</p>
+        <p className="text-sm text-muted-foreground">Last updated: July 2026</p>
         <div className="mt-8 space-y-8">
           {sections.map((s, i) => (
             <Reveal key={s.h} delay={i * 30}>

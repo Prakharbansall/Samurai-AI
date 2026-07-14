@@ -222,18 +222,6 @@ function Index() {
         <div className="mt-14"><IndustriesGrid /></div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="relative overflow-hidden py-20 sm:py-28">
-        <div className="pointer-events-none absolute right-0 top-1/3 h-72 w-72 rounded-full bg-primary/10 blur-3xl" />
-        <div className="mx-auto max-w-6xl px-5">
-          <SectionHeading
-            eyebrow="Testimonials"
-            title={<>Trusted by <span className="gradient-text">early access partners</span></>}
-            subtitle="Feedback from organisations deploying Samurai AI Platform across their operations."
-          />
-          <div className="mt-14"><Testimonials /></div>
-        </div>
-      </section>
 
       {/* EARLY ACCESS */}
       <section id="early-access" className="mx-auto max-w-7xl px-5 py-20 sm:py-28">

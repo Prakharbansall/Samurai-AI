@@ -18,21 +18,7 @@ export function Footer() {
           </p>
           <p className="mt-3 text-xs text-muted-foreground">
             A product of <span className="text-foreground">{COMPANY.name}</span>
-          </p>
-          <div className="mt-5 flex gap-3">
-            {SOCIAL_LINKS.map((s) => (
-              <a
-                key={s.label}
-                href={s.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={s.label}
-                className="grid h-10 w-10 place-items-center rounded-full border border-border text-muted-foreground transition-colors hover:border-primary hover:text-foreground"
-              >
-                <DynamicIcon name={s.icon} className="h-4 w-4" />
-              </a>
-            ))}
-          </div>
+          </p> 
         </div>
 
         <div>

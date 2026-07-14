@@ -21,9 +21,6 @@ export const COMPANY = {
 
 export const SOCIAL_LINKS = [
   { label: "LinkedIn", href: "https://linkedin.com/company/samurai-ai", icon: "Linkedin" },
-  { label: "X (Twitter)", href: "https://x.com/samuraiaiplatform", icon: "Twitter" },
-  { label: "GitHub", href: "https://github.com/samurai-ai", icon: "Github" },
-  { label: "YouTube", href: "https://youtube.com/@samuraiaiplatform", icon: "Youtube" },
 ] as const;
 
 export const NAV_LINKS = [
@@ -175,9 +172,9 @@ export const ROADMAP = [
 ];
 
 export const RELEASE_NOTES = [
-  { version: "v1.2.0", date: "March 2026", title: "Analytics Dashboard v2", highlights: ["Real-time performance metrics", "Custom report builder", "Team usage insights", "Export to PDF and CSV"] },
-  { version: "v1.1.0", date: "February 2026", title: "Conversational AI Module", highlights: ["Multi-channel deployment", "Knowledge base integration", "Conversation analytics", "Custom persona configuration"] },
-  { version: "v1.0.0", date: "January 2026", title: "Platform Launch", highlights: ["Workflow automation engine", "RESTful API suite", "Role-based access control", "Early access programme"] },
+  { version: "v1.2.0", title: "Analytics Dashboard v2", highlights: ["Real-time performance metrics", "Custom report builder", "Team usage insights", "Export to PDF and CSV"] },
+  { version: "v1.1.0",  title: "Conversational AI Module", highlights: ["Multi-channel deployment", "Knowledge base integration", "Conversation analytics", "Custom persona configuration"] },
+  { version: "v1.0.0", title: "Platform Launch", highlights: ["Workflow automation engine", "RESTful API suite", "Role-based access control", "Early access programme"] },
 ];
 
 export const INDUSTRIES = [
@@ -268,12 +265,12 @@ export const HELP_ARTICLES = [
 ];
 
 export const BLOG_POSTS = [
-  { tag: "Platform", date: "Mar 2026", title: "Why Enterprise AI Needs a Unified Platform, Not Point Solutions", excerpt: "Fragmented AI tools create integration debt. A platform approach delivers compounding value across your organisation." },
-  { tag: "Strategy", date: "Feb 2026", title: "The ROI Framework for AI Infrastructure Investments", excerpt: "How forward-thinking leaders measure and communicate the business impact of AI platform adoption." },
-  { tag: "Automation", date: "Feb 2026", title: "Intelligent Workflows: Beyond Basic Automation", excerpt: "How AI-driven workflows adapt to changing conditions and deliver outcomes traditional automation cannot." },
-  { tag: "Enterprise", date: "Jan 2026", title: "Building Trust in Enterprise AI: Security, Governance, and Compliance", excerpt: "The architectural decisions that make AI platforms enterprise-ready from day one." },
-  { tag: "Product", date: "Jan 2026", title: "Samurai AI Platform v1.0: What We Built and Why", excerpt: "An inside look at our platform foundation and the vision driving our product roadmap." },
-  { tag: "Industry", date: "Dec 2025", title: "AI Transformation in Indian Enterprises: Opportunities Ahead", excerpt: "Market trends, adoption patterns, and how Indian businesses are leveraging AI infrastructure." },
+  { tag: "Platform", title: "Why Enterprise AI Needs a Unified Platform, Not Point Solutions", excerpt: "Fragmented AI tools create integration debt. A platform approach delivers compounding value across your organisation." },
+  { tag: "Strategy", title: "The ROI Framework for AI Infrastructure Investments", excerpt: "How forward-thinking leaders measure and communicate the business impact of AI platform adoption." },
+  { tag: "Automation" , title: "Intelligent Workflows: Beyond Basic Automation", excerpt: "How AI-driven workflows adapt to changing conditions and deliver outcomes traditional automation cannot." },
+  { tag: "Enterprise", title: "Building Trust in Enterprise AI: Security, Governance, and Compliance", excerpt: "The architectural decisions that make AI platforms enterprise-ready from day one." },
+  { tag: "Product", title: "Samurai AI Platform v1.0: What We Built and Why", excerpt: "An inside look at our platform foundation and the vision driving our product roadmap." },
+  { tag: "Industry",title: "AI Transformation in Indian Enterprises: Opportunities Ahead", excerpt: "Market trends, adoption patterns, and how Indian businesses are leveraging AI infrastructure." },
 ];
 
 export const PRICING_TIERS = [
